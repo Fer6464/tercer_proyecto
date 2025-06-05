@@ -14,7 +14,7 @@ class TagSeeder extends Seeder
      */
     public function run()
     {
-        $tags = ['Arquitectura','Urbano'];
+        $tags = ['anime'];
         foreach($tags as $name){
             Tag::create(['nombre' => $name]);
         }

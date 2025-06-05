@@ -7,7 +7,7 @@
   <input type="text" name="url" placeholder="URL de la imagen">
   <label>Etiquetas:</label>
   @foreach($tags as $tag)
-    <input type="checkbox" name="tags[]" value="{{ $tag->id }}"> {{ $tag->name }}
+    <input type="checkbox" name="tags[]" value="{{ $tag->id }}"> {{ $tag->nombre }}
   @endforeach
   <button type="submit">Guardar</button>
 </form>
